@@ -1,7 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 :root {
-  --body-bg-color: #22212C;
-  --text-color: #837E9F;
-  --bg-cards: #302F3D;
-  --bg-techs: #CB92B1;
+  --body-bg-color: #22212c;
+  --text-color: #837e9f;
+  --bg-cards: #302f3d;
+  --bg-techs: #cb92b1;
+}
+
+body {
+  background: var(--body-bg-color) no-repeat top center/cover;
+  width: 100%;
+  height: 100%;
+}
+
+body * {
+  font-family: "Merriweather Sans", sans-serif;
+  color: var(--text-color);
+}
+
+/*bloco 1*/
+
+#container0 {
+  width: 348px;
+  height: 292px;
+  flex-shrink: 0;
+  margin: 40px;
+
+  border-radius: 20px;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#profile {
+  text-align: center;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#p2 {
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+#profile img {
+  width: 127.5px;
+  height: 128px;
+  flex-shrink: 0;
+  margin: 32px;
+}
+
+/*bloco 2*/
+
+#container1 {
+  width: 348px;
+  height: 370px; /*370px*/
+
+  border-radius: 20px;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin: 40px;
+}
+
+#local {
+  margin-left: 40px;
+  padding-top: 30px;
+  margin-right: 284px;
+}
+
+#work {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+#github {
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+#in {
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+#twitterX {
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+#site {
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+#mail {
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+/*Bloco 3*/
+
+#container2 {
+  width: 348px;
+  height: 208px;
+  flex-shrink: 0;
+
+  border-radius: 20px;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin: 40px;
+}
+
+#Tecnologias {
+  width: 121px;
+  height: 26px;
+  flex-shrink: 0;
+  margin-left: 20px;
+  padding-top: 30px;
+
+  color: #837e9f;
+  font-family: "Merriweather Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/*Bloco 4*/
+
+#container3 {
+  width: 348px;
+  height: 349px;
+  flex-shrink: 0;
+
+  border-radius: 20px;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin: 40px;
+}
+
+#exp {
+  margin: 20px;
+  padding-top: 30px;
+  width: 141px;
+  height: 26px;
+  flex-shrink: 0;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/*Bloco 5*/
+
+#container4 {
+  width: 348px;
+  height: 352px;
+  flex-shrink: 0;
+  margin: 40px;
+
+  border-radius: 20px;
+  background: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+}
+
+#edu {
+  width: 141px;
+  height: 26px;
+  flex-shrink: 0;
+  margin: 20px;
+  padding-top: 30px;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
