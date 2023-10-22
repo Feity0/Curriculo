@@ -13,8 +13,8 @@
 
 body {
   background: var(--body-bg-color) no-repeat top center/cover;
-  width: 100%;
-  height: 100%;
+  width: 1440px;
+  height: 1767px;
 }
 
 body * {
@@ -132,6 +132,72 @@ body * {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+#HTML {
+  text-align: center;
+  width: 86px;
+  height: 24px;
+  border-radius: 30px;
+  background: var(--bg-techs);
+  margin: 30px;
+  margin-top: 50px;
+  color: black;
+}
+
+#CSS {
+  text-align: center;
+  width: 86px;
+  height: 24px;
+  border-radius: 30px;
+  background: var(--bg-techs);
+  margin: 30px;
+  margin-top: -15px;
+  color: black;
+}
+
+#python {
+  text-align: center;
+  width: 86px;
+  height: 24px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: var(--bg-techs);
+  color: black;
+
+  margin: -132px auto auto auto;
+}
+
+#C {
+  text-align: center;
+  width: 86px;
+  height: 24px;
+  border-radius: 30px;
+  background: var(--bg-techs);
+  margin: 15px auto auto auto;
+  color: black;
+}
+
+#github2 {
+  text-align: center;
+  width: 86px;
+  height: 24px;
+  border-radius: 30px;
+  background: var(--bg-techs);
+  margin: -101.85px auto auto 230px;
+  color: black;
+}
+
+#zero{
+  text-align: center;
+  width: 86px;
+  height: 24px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: var(--bg-techs);
+  color: black;
+
+  margin: 15px auto auto 230px;
 }
 
 /*Bloco 4*/
