@@ -63,6 +63,7 @@ body * {
 #container1 {
   width: 348px;
   height: 370px; /*370px*/
+  flex-shrink: 0;
 
   border-radius: 20px;
   background: #302f3d;
@@ -75,35 +76,57 @@ body * {
   padding-top: 30px;
   margin-right: 284px;
 }
+#loc {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  margin: -25px auto auto 40px;
+}
 
 #work {
   margin-left: 40px;
   margin-top: 20px;
 }
+#trampo{
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  margin: -22px auto auto 40px;
+}
 
 #github {
-  padding-left: 40px;
-  padding-top: 20px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+#github ul li a{
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 #in {
-  padding-left: 40px;
-  padding-top: 20px;
+  margin-left: 40px;
+  margin-top: 20px;
 }
 
 #twitterX {
-  padding-left: 40px;
-  padding-top: 20px;
+  margin-left: 40px;
+  margin-top: 20px;
 }
 
 #site {
-  padding-left: 40px;
-  padding-top: 20px;
+  margin-left: 40px;
+  margin-top: 20px;
 }
 
 #mail {
-  padding-left: 40px;
-  padding-top: 20px;
+  margin-left: 40px;
+  margin-top: 20px;
 }
 
 /*Bloco 3*/
@@ -250,4 +273,28 @@ body * {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+#multivix{
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 50px auto auto 40px;
+}
+
+#data {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin: auto auto auto 40px;
+}
+
+#Rocketseat{
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 30px auto auto 40px;
 }
