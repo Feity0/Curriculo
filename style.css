@@ -190,8 +190,6 @@ ul{
   margin-left: 20px;
   padding-top: 30px;
 
-  color: #837e9f;
-  font-family: "Merriweather Sans";
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -338,4 +336,97 @@ ul{
   font-weight: 700;
   line-height: normal;
   margin: 30px auto auto 40px;
+}
+
+/*Projetos*/
+
+#container5 {
+  width: 952px;
+  height: 86px;
+
+  border-radius: 20px;
+  background: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+
+  margin: -1771px auto auto 448px ;
+}
+
+#projects{
+  width: 121px;
+  height: 26px;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+
+  margin: 30px auto auto 30px;
+}
+
+#sm {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  position: absolute;
+  text-decoration: none;
+
+  margin: 34px auto auto 851px;
+}
+/*P1*/
+
+#container6 {
+  width: 461px;
+  height: 186px;
+
+  border-radius: 20px;
+  background: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+  position: absolute;
+
+  margin: 30px auto auto -403px;
+}
+
+/*P2*/
+
+#container7 {
+  width: 461px;
+  height: 186px;
+
+  border-radius: 20px;
+  background: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+  position: absolute;
+
+  margin: 30px auto auto 87px;
+}
+
+/*Sobre mim*/
+#container8 {
+  width: 952px;
+  height: 186px;
+  flex-shrink: 0;
+
+  border-radius: 20px;
+  background: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+  position: absolute;
+
+  margin: 273px auto auto -403px ;
+}
+
+#aboutMe {
+  width: 140px;
+  height: 26px;
+  flex-shrink: 0;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+
+  margin: 30px auto auto 30px;
 }
