@@ -165,6 +165,21 @@ ul{
   margin-left: 40px;
   margin-top: 20px;
 }
+#website {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  position: absolute;
+  display: flex;
+  text-decoration: none;
+
+  margin: -25px auto auto 40px;
+}
+#website:hover {
+  text-decoration: underline;
+}
 
 #mail {
   margin-left: 40px;
