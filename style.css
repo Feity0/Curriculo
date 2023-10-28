@@ -74,7 +74,6 @@ body * {
 #local {
   margin-left: 40px;
   padding-top: 30px;
-  margin-right: 284px;
 }
 #loc {
   font-size: 13px;
@@ -118,6 +117,9 @@ ul{
 
   margin: -22px auto auto 80px;
 }
+#account:hover {
+  text-decoration: underline;
+}
 
 #in {
   margin-left: 40px;
@@ -135,6 +137,9 @@ ul{
 
   margin: -23px auto auto 80px;
 }
+#inAccount:hover {
+  text-decoration: underline;
+}
 
 #twitterX {
   margin-left: 40px;
@@ -151,6 +156,9 @@ ul{
   text-decoration: none;
 
   margin: -25px auto auto 80px;
+}
+#twAccount:hover {
+  text-decoration:underline;
 }
 
 #site {
@@ -262,32 +270,6 @@ ul{
   margin: 15px auto auto 230px;
 }
 
-/*Bloco 4*/
-
-#container3 {
-  width: 348px;
-  height: 349px;
-  flex-shrink: 0;
-
-  border-radius: 20px;
-  background: #302f3d;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  margin: 40px;
-}
-
-#exp {
-  margin: 20px;
-  padding-top: 30px;
-  width: 141px;
-  height: 26px;
-  flex-shrink: 0;
-
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
 /*Bloco 5*/
 
 #container4 {
@@ -348,7 +330,7 @@ ul{
   background: #302F3D;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
 
-  margin: -1771px auto auto 448px ;
+  margin: -1382px 40px 30px 448px;
 }
 
 #projects{
@@ -375,8 +357,11 @@ ul{
 
   margin: 34px auto auto 851px;
 }
-/*P1*/
+#sm:hover {
+  text-decoration: underline;
+}
 
+/*P1*/
 #container6 {
   width: 461px;
   height: 186px;
@@ -386,11 +371,10 @@ ul{
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
   position: absolute;
 
-  margin: 30px auto auto -403px;
+  margin: 5px auto auto 448px;
 }
 
 /*P2*/
-
 #container7 {
   width: 461px;
   height: 186px;
@@ -400,27 +384,25 @@ ul{
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
   position: absolute;
 
-  margin: 30px auto auto 87px;
+  margin: 5px auto auto 939px;
 }
 
 /*Sobre mim*/
 #container8 {
   width: 952px;
   height: 186px;
-  flex-shrink: 0;
 
   border-radius: 20px;
   background: #302F3D;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
   position: absolute;
 
-  margin: 273px auto auto -403px ;
+  margin: 224px auto auto 448px ;
 }
 
 #aboutMe {
   width: 140px;
   height: 26px;
-  flex-shrink: 0;
 
   font-size: 20px;
   font-style: normal;
@@ -429,4 +411,45 @@ ul{
   position: absolute;
 
   margin: 30px auto auto 30px;
+}
+
+#text {
+
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+
+  margin: 64px auto auto 30px;
+}
+
+/*XP*/
+
+#container3 {
+  width: 952px;
+  height: 776px;
+
+  border-radius: 20px;
+  background: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+
+  margin: 478px auto auto 448px;
+}
+
+#xp {
+  width: 141px;
+  height: 26px;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  margin: 30px;
+  padding-top: 30px;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
 }
