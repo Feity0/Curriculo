@@ -475,9 +475,9 @@ ul{
 }
 
 #relato {
-  font-size: 15px;
+  font-size: 14px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: normal;
   text-align:justify;
 
@@ -485,9 +485,9 @@ ul{
 }
 
 #cargo {
-  font-size: 15px;
+  font-size: 14px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: normal;
 
   margin: -35px auto auto 65px;
