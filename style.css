@@ -332,7 +332,7 @@ ul{
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin: 30px auto auto 40px;
+  margin: 15px auto auto 40px;
 }
 
 /*Projetos*/
@@ -435,7 +435,8 @@ ul{
   font-weight: 300;
   line-height: normal;
 
-  margin: 64px auto auto 30px;
+  margin: 64px 30px auto 30px;
+  text-align: justify;
 }
 
 /*XP*/
@@ -462,6 +463,34 @@ ul{
 
   margin: 30px;
   padding-top: 30px;
+}
+
+#EscCont {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  margin: 40px;
+}
+
+#relato {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align:justify;
+
+  margin: 7px 30px auto 65px;
+}
+
+#cargo {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  margin: -35px auto auto 65px;
 }
 
 footer {
