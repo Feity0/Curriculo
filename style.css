@@ -435,7 +435,7 @@ ul{
   font-weight: 300;
   line-height: normal;
 
-  margin: 64px 30px auto 30px;
+  margin: 64px 30px auto 40px;
   text-align: justify;
 }
 
@@ -481,7 +481,17 @@ ul{
   line-height: normal;
   text-align:justify;
 
-  margin: 7px 30px auto 65px;
+  margin: 8px 30px auto 65px;
+}
+
+#time {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: justify;
+
+  margin: 8px 30px auto 65px;
 }
 
 #cargo {
