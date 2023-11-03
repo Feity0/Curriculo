@@ -156,9 +156,10 @@ ul{
   text-decoration: none;
 
   margin: -22px auto auto 80px;
+  transition: 0.25s ease;
 }
 #account:hover {
-  text-decoration: underline;
+  color: var(--bg-techs);
 }
 
 #in {
@@ -176,9 +177,10 @@ ul{
   text-decoration: none;
 
   margin: -23px auto auto 80px;
+  transition: 0.25s ease;
 }
 #inAccount:hover {
-  text-decoration: underline;
+  color: var(--bg-techs);
 }
 
 #twitterX {
@@ -196,9 +198,10 @@ ul{
   text-decoration: none;
 
   margin: -25px auto auto 80px;
+  transition: 0.25s ease;
 }
 #twAccount:hover {
-  text-decoration:underline;
+  color: var(--bg-techs);
 }
 
 #site {
@@ -216,9 +219,10 @@ ul{
   text-decoration: none;
 
   margin: -25px auto auto 40px;
+  transition: 0.25s ease;
 }
 #website:hover {
-  text-decoration: underline;
+  color: var(--bg-techs);
 }
 
 #mail {
