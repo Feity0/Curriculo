@@ -13,6 +13,7 @@
 
 header {
   background-color: var(--bg-cards);
+  width: 100%;
 }
 
 header nav a {
@@ -67,7 +68,6 @@ body * {
   background: #302f3d;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 
-  will-change: opacity;
   animation: MoveUp 0.85s ease;
   animation-delay: 0.2s;
 }
