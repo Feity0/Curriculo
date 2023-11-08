@@ -69,7 +69,6 @@ body * {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 
   animation: MoveUp 0.85s ease;
-  animation-delay: 0.2s;
 }
 
 @keyframes MoveUp {
@@ -118,7 +117,6 @@ body * {
   margin: 40px;
   
   animation: MoveUp 0.85s ease;
-  animation-delay: 0.4s;
 }
 
 #local {
@@ -260,7 +258,6 @@ ul{
   margin: 40px;
 
   animation: MoveUp 0.85s ease;
-  animation-delay: 0.5s;
 }
 
 #Tecnologias {
@@ -355,7 +352,6 @@ ul{
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 
   animation: MoveUp 0.85s ease;
-  animation-delay: 0.5s;
 }
 
 #edu {
@@ -397,7 +393,7 @@ ul{
 /*Sobre mim*/
 #container8 {
   width: 952px;
-  height: 186px;
+  height: 292px;
 
   border-radius: 20px;
   background: #302F3D;
@@ -407,7 +403,6 @@ ul{
   margin: -1381px auto auto 448px ;
 
   animation: MoveUp 0.85s ease;
-  animation-delay: 0.3s;
 }
 
 #aboutMe {
@@ -438,16 +433,15 @@ ul{
 
 #container3 {
   width: 952px;
-  height: 776px;
+  height: 1010px;
 
   border-radius: 20px;
   background: #302F3D;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
 
-  margin: -1155px auto auto 448px;
+  margin: -1051px auto auto 448px;
 
   animation: MoveUp 0.85s ease;
-  animation-delay: 0.45s;
 }
 
 #container3 ul {
@@ -506,7 +500,6 @@ ul{
 }
 
 footer {
-  margin-top: 350px;
-  margin-bottom: 10px;
+  margin-top: 30px;
   text-align: center;
 }
